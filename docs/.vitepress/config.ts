@@ -12,6 +12,17 @@ export default defineConfig({
   },
 
   themeConfig: {
+    sidebar: [
+      {
+        text: 'Guide',
+        items: [
+          { text: 'Home', link: '/home' },
+          { text: 'Page', link: '/page' },
+          { text: 'Doc', link: '/page' },
+          { text: 'Team', link: '/team' },
+        ]
+      }
+    ],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
