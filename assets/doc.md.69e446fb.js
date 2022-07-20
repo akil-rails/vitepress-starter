@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.daf1bf28.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"doc.md","lastUpdated":1658332631000}'),o={name:"doc.md"};function r(c,s,d,n,p,_){return a(),t("div")}var f=e(o,[["render",r]]);export{m as __pageData,f as default};
