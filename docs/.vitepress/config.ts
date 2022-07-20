@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'vitepress-starter',
   description: "Testing instructions from the documentation at https://vitepress.vuejs.org/",
   lastUpdated: true,
+  base: '/vitepress-starter/',
   markdown: {
     theme: 'material-palenight',
     lineNumbers: true,
