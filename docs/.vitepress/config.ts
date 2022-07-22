@@ -20,6 +20,7 @@ export default defineConfig({
           { text: 'Page', link: '/page' },
           { text: 'Doc', link: '/page' },
           { text: 'Team', link: '/team' },
+          { text: 'Dynamic', link: '/dynamic' },
         ]
       }
     ],
