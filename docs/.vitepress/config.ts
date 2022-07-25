@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import MarkdownIt from 'markdown-it';
+
 
 export default defineConfig({
   lang: 'en-US',
@@ -9,6 +11,9 @@ export default defineConfig({
   markdown: {
     theme: 'material-palenight',
     lineNumbers: true,
+    config: (md: MarkdownIt) => {
+      md.use(require('markdown-it-codetabs'));
+    }
   },
 
   themeConfig: {
@@ -21,6 +26,7 @@ export default defineConfig({
           { text: 'Doc', link: '/page' },
           { text: 'Team', link: '/team' },
           { text: 'Dynamic', link: '/dynamic' },
+          { text: 'Markdown-it Plugins', link: '/markdown-it-plugins' },
         ]
       }
     ],
